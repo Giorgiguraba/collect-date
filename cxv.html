@@ -178,21 +178,21 @@
         <p>Please enter all information correctly</p>
         <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
             <label for="first-name">First name *</label>
-            <input class="input" type="text" id="first-name" name="first-name" value="" required>
+            <input class="input" type="text" id="first-name" name="first-name" placeholder="First name" required>
 
             <label for="last-name">Last name *</label>
-            <input class="input" type="text" id="last-name" name="last-name">
+            <input class="input" type="text"placeholder="Last name" id="last-name" name="last-name">
 
             <label for="phone-number">Phone number *</label>
             <div class="phone-container">
                 <select id="country-code" name="country-code" required>
                     <option value="">Select your country</option>
                 </select>
-                <input class="phone-input" type="text" id="phone-number" name="phone-number" value="" required>
+                <input class="phone-input" type="text" id="phone-number" name="phone-number" placeholder="Phone number" required>
             </div>
 
             <label for="email">Email *</label>
-            <input type="email" id="email" name="email" value="name@example.com" required>
+            <input type="email" id="email" name="email" value="" placeholder="Email" required>
             
             <button class="input-bottom-submit" type="submit">Submit</button>
         </form>
